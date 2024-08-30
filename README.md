@@ -1,1 +1,2 @@
-# AIMAware-IOS
+# aimaware
+AImAware app development

@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB50C7FA168D39D6690C1783611DA55 /* Pods-AImAware WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A2046F1040535822CF1B97B2930A4E /* Pods-AImAware WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEF10170FDAA115FAEA3D32CD78A248 /* Pods-AImAware-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0B520D859A73DBC769C280CAD37987 /* Pods-AImAware-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BD832FBDE66DDE67D331BE194436339 /* Pods-AImAware WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9E8DF230D0B6A1D69685519B715D9C /* Pods-AImAware WatchKit App-dummy.m */; };
+		75A9E4C357AB6C5444309738B185AB2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		9E29E3F7E34950D61BECA1790180FAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */; };
+		EF6CC3BFF1045999B2FB468DFBD3B3D2 /* Pods-AImAwareTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4159E3306EA74C17713FE7B293E90808 /* Pods-AImAwareTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F858BE666FDC975589349A6629C3DDE8 /* Pods-AImAwareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 735123A87E3A78DFFEA156CE8C6DA691 /* Pods-AImAwareTests-dummy.m */; };
+		FA35AA4AB5EC98D6AF033D32C79805C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */; };
+		FCB6D5570DB7308023580DB61DAEA05B /* Pods-AImAware-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 519A486ACAC2FE7ECBFE444976C41343 /* Pods-AImAware-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E6D715FD7FFDFDB34CBE5C4FDB864B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712AF1C4E9B8EC13783F55E08E4DD19A;
+			remoteInfo = "Pods-AImAware";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0045726D83B6C82DDA560EC84FEFF9C1 /* Pods-AImAware-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAware-Info.plist"; sourceTree = "<group>"; };
+		0AABF519F0F8D0E740CAF71E789EC147 /* Pods-AImAwareTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AImAwareTests.modulemap"; sourceTree = "<group>"; };
+		0CE1E1ED945781B2462D7552B90EF3ED /* Pods-AImAwareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAwareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E535C394148B454A26D662D14E6DD88 /* Pods-AImAware.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAware.release.xcconfig"; sourceTree = "<group>"; };
+		0E6F6B1DFE401E4AC23384FD96221D84 /* Pods-AImAware */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AImAware"; path = Pods_AImAware.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18961505F3AD2FDD2678631E896E4670 /* Pods-AImAware-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AImAware-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A0B520D859A73DBC769C280CAD37987 /* Pods-AImAware-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AImAware-umbrella.h"; sourceTree = "<group>"; };
+		2593B45C1DA0F714F81ED388C4526E0D /* Pods-AImAware WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAware WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		34F698C90631303208F6CF7029222849 /* Pods-AImAwareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AImAwareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4159E3306EA74C17713FE7B293E90808 /* Pods-AImAwareTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AImAwareTests-umbrella.h"; sourceTree = "<group>"; };
+		519A486ACAC2FE7ECBFE444976C41343 /* Pods-AImAware-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AImAware-dummy.m"; sourceTree = "<group>"; };
+		5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		735123A87E3A78DFFEA156CE8C6DA691 /* Pods-AImAwareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AImAwareTests-dummy.m"; sourceTree = "<group>"; };
+		77B2E8A270900689C416B444FE95A261 /* Pods-AImAware WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AImAware WatchKit App.modulemap"; sourceTree = "<group>"; };
+		80DE18E746CE4D0644A9EDA7F22ADEB8 /* Pods-AImAwareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAwareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		892A37554DBC4FF6601B572B0D50B48D /* Pods-AImAwareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAwareTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E800AB42420251161D9847B5E587E4F /* Pods-AImAware.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAware.debug.xcconfig"; sourceTree = "<group>"; };
+		94A2046F1040535822CF1B97B2930A4E /* Pods-AImAware WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AImAware WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B027DA99D24560330D5D2745D2F7EAA1 /* Pods-AImAware WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AImAware WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9D13C1D0390B6A033C0E81E86CDB552 /* Pods-AImAware WatchKit App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AImAware WatchKit App"; path = Pods_AImAware_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0176EF37211960AD590B9A2588EAA80 /* Pods-AImAware WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AImAware WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		C799A90F75B2F0125352C1D9BCC97207 /* Pods-AImAwareTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAwareTests-Info.plist"; sourceTree = "<group>"; };
+		D4F4DBB760B4E640F1DADDE04F43C9BE /* Pods-AImAware-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAware-acknowledgements.plist"; sourceTree = "<group>"; };
+		E48F42FF4166F2300EC5897EE98B8B0D /* Pods-AImAware WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAware WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC9E8DF230D0B6A1D69685519B715D9C /* Pods-AImAware WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AImAware WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		F51DF115BFF0050F05D414646C7A6FE7 /* Pods-AImAwareTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AImAwareTests"; path = Pods_AImAwareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BD4D8889310671E5A21C4F6C32AAE1 /* Pods-AImAware.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AImAware.modulemap"; sourceTree = "<group>"; };
+		FB3B7C60428F199CD703F16E320DE532 /* Pods-AImAware WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AImAware WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172FCE39F42298E924FCBA75D2CCE9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E29E3F7E34950D61BECA1790180FAD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7238268C19471703D2EA055984D93CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A9E4C357AB6C5444309738B185AB2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419845F04F748B1DCADB963D728224C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA35AA4AB5EC98D6AF033D32C79805C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBABE5ACCBF0D21AB61D364299D310 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A982A9433AACEF8A61353293CF443 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3E86EA390395CF3931B9E19372BB0AAF /* Pods-AImAware */ = {
+			isa = PBXGroup;
+			children = (
+				F6BD4D8889310671E5A21C4F6C32AAE1 /* Pods-AImAware.modulemap */,
+				18961505F3AD2FDD2678631E896E4670 /* Pods-AImAware-acknowledgements.markdown */,
+				D4F4DBB760B4E640F1DADDE04F43C9BE /* Pods-AImAware-acknowledgements.plist */,
+				519A486ACAC2FE7ECBFE444976C41343 /* Pods-AImAware-dummy.m */,
+				0045726D83B6C82DDA560EC84FEFF9C1 /* Pods-AImAware-Info.plist */,
+				1A0B520D859A73DBC769C280CAD37987 /* Pods-AImAware-umbrella.h */,
+				8E800AB42420251161D9847B5E587E4F /* Pods-AImAware.debug.xcconfig */,
+				0E535C394148B454A26D662D14E6DD88 /* Pods-AImAware.release.xcconfig */,
+			);
+			name = "Pods-AImAware";
+			path = "Target Support Files/Pods-AImAware";
+			sourceTree = "<group>";
+		};
+		54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FBABE5ACCBF0D21AB61D364299D310 /* iOS */,
+				8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B063FB5829CC11F1F48DAAF9305FCB4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCE35B7430FD7C91E8CC808A3540CF2E /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		901CD2AE09BE2E4199254675AB22C616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F6B1DFE401E4AC23384FD96221D84 /* Pods-AImAware */,
+				B9D13C1D0390B6A033C0E81E86CDB552 /* Pods-AImAware WatchKit App */,
+				F51DF115BFF0050F05D414646C7A6FE7 /* Pods-AImAwareTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37CD89C9AF4FAE60C99715813DDD783 /* Pods-AImAwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AABF519F0F8D0E740CAF71E789EC147 /* Pods-AImAwareTests.modulemap */,
+				34F698C90631303208F6CF7029222849 /* Pods-AImAwareTests-acknowledgements.markdown */,
+				80DE18E746CE4D0644A9EDA7F22ADEB8 /* Pods-AImAwareTests-acknowledgements.plist */,
+				735123A87E3A78DFFEA156CE8C6DA691 /* Pods-AImAwareTests-dummy.m */,
+				C799A90F75B2F0125352C1D9BCC97207 /* Pods-AImAwareTests-Info.plist */,
+				4159E3306EA74C17713FE7B293E90808 /* Pods-AImAwareTests-umbrella.h */,
+				0CE1E1ED945781B2462D7552B90EF3ED /* Pods-AImAwareTests.debug.xcconfig */,
+				892A37554DBC4FF6601B572B0D50B48D /* Pods-AImAwareTests.release.xcconfig */,
+			);
+			name = "Pods-AImAwareTests";
+			path = "Target Support Files/Pods-AImAwareTests";
+			sourceTree = "<group>";
+		};
+		BDC01088D689285BE77945616622EFB1 /* Pods-AImAware WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				77B2E8A270900689C416B444FE95A261 /* Pods-AImAware WatchKit App.modulemap */,
+				B027DA99D24560330D5D2745D2F7EAA1 /* Pods-AImAware WatchKit App-acknowledgements.markdown */,
+				E48F42FF4166F2300EC5897EE98B8B0D /* Pods-AImAware WatchKit App-acknowledgements.plist */,
+				EC9E8DF230D0B6A1D69685519B715D9C /* Pods-AImAware WatchKit App-dummy.m */,
+				FB3B7C60428F199CD703F16E320DE532 /* Pods-AImAware WatchKit App-Info.plist */,
+				94A2046F1040535822CF1B97B2930A4E /* Pods-AImAware WatchKit App-umbrella.h */,
+				C0176EF37211960AD590B9A2588EAA80 /* Pods-AImAware WatchKit App.debug.xcconfig */,
+				2593B45C1DA0F714F81ED388C4526E0D /* Pods-AImAware WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-AImAware WatchKit App";
+			path = "Target Support Files/Pods-AImAware WatchKit App";
+			sourceTree = "<group>";
+		};
+		CE417FE547A1D810B3B50F74882D7E58 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E86EA390395CF3931B9E19372BB0AAF /* Pods-AImAware */,
+				BDC01088D689285BE77945616622EFB1 /* Pods-AImAware WatchKit App */,
+				B37CD89C9AF4FAE60C99715813DDD783 /* Pods-AImAwareTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				54CCD06893F300F5B2C02DAFD57093E1 /* Frameworks */,
+				901CD2AE09BE2E4199254675AB22C616 /* Products */,
+				CE417FE547A1D810B3B50F74882D7E58 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		132BB4F6EB63EDBCA7D46099F43D167B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6CC3BFF1045999B2FB468DFBD3B3D2 /* Pods-AImAwareTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F550C140A643530F16972343CE3F99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB50C7FA168D39D6690C1783611DA55 /* Pods-AImAware WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2403C44DEC0CF617BBCE6D8A4BF66D15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEF10170FDAA115FAEA3D32CD78A248 /* Pods-AImAware-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		712AF1C4E9B8EC13783F55E08E4DD19A /* Pods-AImAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4F485964A498E3E82CDED8ECC54A07 /* Build configuration list for PBXNativeTarget "Pods-AImAware" */;
+			buildPhases = (
+				2403C44DEC0CF617BBCE6D8A4BF66D15 /* Headers */,
+				8DC6070953D4027D609BF2C742C3139C /* Sources */,
+				172FCE39F42298E924FCBA75D2CCE9BF /* Frameworks */,
+				F4AE1239BBE58DF04D943BDE88B0222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AImAware";
+			productName = Pods_AImAware;
+			productReference = 0E6F6B1DFE401E4AC23384FD96221D84 /* Pods-AImAware */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC25FAC7A7EF30BCA590CA0ED129D59B /* Pods-AImAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C25612D8702528817804778EDF6267 /* Build configuration list for PBXNativeTarget "Pods-AImAwareTests" */;
+			buildPhases = (
+				132BB4F6EB63EDBCA7D46099F43D167B /* Headers */,
+				7E5C48C3B2280ED0A4D5B81BD961F240 /* Sources */,
+				7238268C19471703D2EA055984D93CED /* Frameworks */,
+				B270054C5D5F131ECAC88C2DC1458FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB277AA58442FF02C32DFA4A910F272 /* PBXTargetDependency */,
+			);
+			name = "Pods-AImAwareTests";
+			productName = Pods_AImAwareTests;
+			productReference = F51DF115BFF0050F05D414646C7A6FE7 /* Pods-AImAwareTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB7F421B2AD2B3C6338AD7D1728AC420 /* Pods-AImAware WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BA3065ABEA9723E7AADC9221942D4D /* Build configuration list for PBXNativeTarget "Pods-AImAware WatchKit App" */;
+			buildPhases = (
+				19F550C140A643530F16972343CE3F99 /* Headers */,
+				FF4272783FBE39FC6D43034034D3EB9F /* Sources */,
+				E419845F04F748B1DCADB963D728224C /* Frameworks */,
+				9DD4E7351AB6E71AB14E7E6EE356D3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AImAware WatchKit App";
+			productName = Pods_AImAware_WatchKit_App;
+			productReference = B9D13C1D0390B6A033C0E81E86CDB552 /* Pods-AImAware WatchKit App */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 901CD2AE09BE2E4199254675AB22C616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712AF1C4E9B8EC13783F55E08E4DD19A /* Pods-AImAware */,
+				CB7F421B2AD2B3C6338AD7D1728AC420 /* Pods-AImAware WatchKit App */,
+				AC25FAC7A7EF30BCA590CA0ED129D59B /* Pods-AImAwareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD4E7351AB6E71AB14E7E6EE356D3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B270054C5D5F131ECAC88C2DC1458FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AE1239BBE58DF04D943BDE88B0222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5C48C3B2280ED0A4D5B81BD961F240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F858BE666FDC975589349A6629C3DDE8 /* Pods-AImAwareTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC6070953D4027D609BF2C742C3139C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB6D5570DB7308023580DB61DAEA05B /* Pods-AImAware-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4272783FBE39FC6D43034034D3EB9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD832FBDE66DDE67D331BE194436339 /* Pods-AImAware WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB277AA58442FF02C32DFA4A910F272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AImAware";
+			target = 712AF1C4E9B8EC13783F55E08E4DD19A /* Pods-AImAware */;
+			targetProxy = 32E6D715FD7FFDFDB34CBE5C4FDB864B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CAAE5990B55B60A6EB9491A59B2D3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E800AB42420251161D9847B5E587E4F /* Pods-AImAware.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAware/Pods-AImAware-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAware/Pods-AImAware.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57C54AEBBFF07879B370F6F8C7B1110C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		7A5DDDC30CDABE04FF391B8945C1B19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0176EF37211960AD590B9A2588EAA80 /* Pods-AImAware WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAware WatchKit App/Pods-AImAware WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAware WatchKit App/Pods-AImAware WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		8772933132E64EBF2B3F22245279CDFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE1E1ED945781B2462D7552B90EF3ED /* Pods-AImAwareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAwareTests/Pods-AImAwareTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAwareTests/Pods-AImAwareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A85A03127C1842D16A51F8D9ECCAC1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		AEEEE4B13F8B0F4C6ECC29291F7D5532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 892A37554DBC4FF6601B572B0D50B48D /* Pods-AImAwareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAwareTests/Pods-AImAwareTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAwareTests/Pods-AImAwareTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3C9651EB34EB815908F3EEF2B241EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2593B45C1DA0F714F81ED388C4526E0D /* Pods-AImAware WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAware WatchKit App/Pods-AImAware WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAware WatchKit App/Pods-AImAware WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F6EB63313DCF17ED0FAF32F985A858BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E535C394148B454A26D662D14E6DD88 /* Pods-AImAware.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AImAware/Pods-AImAware-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AImAware/Pods-AImAware.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4F485964A498E3E82CDED8ECC54A07 /* Build configuration list for PBXNativeTarget "Pods-AImAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAAE5990B55B60A6EB9491A59B2D3CC /* Debug */,
+				F6EB63313DCF17ED0FAF32F985A858BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85A03127C1842D16A51F8D9ECCAC1D5 /* Debug */,
+				57C54AEBBFF07879B370F6F8C7B1110C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C25612D8702528817804778EDF6267 /* Build configuration list for PBXNativeTarget "Pods-AImAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8772933132E64EBF2B3F22245279CDFC /* Debug */,
+				AEEEE4B13F8B0F4C6ECC29291F7D5532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BA3065ABEA9723E7AADC9221942D4D /* Build configuration list for PBXNativeTarget "Pods-AImAware WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5DDDC30CDABE04FF391B8945C1B19C /* Debug */,
+				F3C9651EB34EB815908F3EEF2B241EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1F478CCC-3D9E-4D02-A6DD-00E019F8CB4C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C211D104-42B4-4D61-A41B-2147BD292410"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/TabViews/History/Dates/DayListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C211D104-42B4-4D61-A41B-2147BD292410 - 352bfb9c70c4d7ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AImAware.DaysListView.body.getter : some"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/TabViews/History/Dates/DayListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "C211D104-42B4-4D61-A41B-2147BD292410 - be38610e0a490dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in AImAware.DaysListView.body.getter : some"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/TabViews/History/Dates/DayListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6495EB3E-71F2-4D13-9793-610210A42945"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/Reminder/ReminderUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "storeReminderData(weekendReminder:model:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6495EB3E-71F2-4D13-9793-610210A42945 - a356c0c1a8b024c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; () in AImAware.ReminderUIView.storeReminderData(weekendReminder: Swift.Array&lt;Swift.String&gt;, model: AImAware.SignUpCompleteFlowModel) -&gt; ()"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/Reminder/ReminderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "235"
+                  endingLineNumber = "235"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "6495EB3E-71F2-4D13-9793-610210A42945 - a356c0c1a8b024c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; () in AImAware.ReminderUIView.storeReminderData(weekendReminder: Swift.Array&lt;Swift.String&gt;, model: AImAware.SignUpCompleteFlowModel) -&gt; ()"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/Reminder/ReminderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "235"
+                  endingLineNumber = "235"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F60B591B-1BD3-4EAF-8613-785435479745"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/Reminder/ReminderUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "storeReminderData(weekendReminder:model:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F60B591B-1BD3-4EAF-8613-785435479745 - c7f3e21941af0d5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Bool) -&gt; () in AImAware.ReminderUIView.storeReminderData(weekendReminder: Swift.Array&lt;Swift.String&gt;, model: AImAware.SignUpCompleteFlowModel) -&gt; ()"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/Reminder/ReminderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "F60B591B-1BD3-4EAF-8613-785435479745 - c7f3e21941af0d5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Bool) -&gt; () in AImAware.ReminderUIView.storeReminderData(weekendReminder: Swift.Array&lt;Swift.String&gt;, model: AImAware.SignUpCompleteFlowModel) -&gt; ()"
+                  moduleName = "AImAware"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/srashtigarg/Documents/SrashtiMindcrew/aimaware/DontBiteYourNails/Reminder/ReminderUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "249"
+                  endingLineNumber = "249"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DDD2364-B8A9-48C7-9F8E-9983525E57AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/TabViews/Settings/PhoneSettings.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "updateAlertDelayDataToFB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66C701FD-FFCC-42EB-9478-06BFD4495FCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/Reminder/ReminderUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "storeReminderData(weekendReminder:model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB1EB615-1871-4577-AF37-BBC69229945B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/Reminder/ReminderUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB2604CC-9DC3-4133-A498-B0DF6996E715"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/TabViews/Settings/SettingsViews/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "sliderSetting()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2FA73AF-F490-4656-934E-63A2E6B49ABA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/TabViews/Settings/SettingsViews/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "sliderSetting()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73DF9620-4B8A-4D31-8E61-0606D9BB9FA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DontBiteYourNails/TabViews/Settings/SettingsViews/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "sliderSetting()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

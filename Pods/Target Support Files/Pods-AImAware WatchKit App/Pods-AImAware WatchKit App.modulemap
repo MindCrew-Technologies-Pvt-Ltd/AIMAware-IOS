@@ -1,0 +1,6 @@
+framework module Pods_AImAware_WatchKit_App {
+  umbrella header "Pods-AImAware WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}

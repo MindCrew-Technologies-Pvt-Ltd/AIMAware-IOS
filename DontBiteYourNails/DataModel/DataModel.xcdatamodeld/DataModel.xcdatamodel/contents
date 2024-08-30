@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ActiveDate" representedClassName="ActiveDate" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="confirmed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="denied" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ignored" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalTime" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="sessions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Session" inverseName="date" inverseEntity="Session" spotlightIndexingEnabled="YES"/>
+    </entity>
+    <entity name="Alert" representedClassName=".Alert" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="feeling" optional="YES" attributeType="String"/>
+        <attribute name="handStillNearPosition" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="secondary" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="situation" optional="YES" attributeType="String"/>
+        <attribute name="status" attributeType="String"/>
+        <attribute name="timestamp" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="urge" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="10" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userAlerted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userAnswers" optional="YES" attributeType="String"/>
+        <relationship name="alertMotionData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AlertMotionData" inverseName="alert" inverseEntity="AlertMotionData"/>
+        <relationship name="session" maxCount="1" deletionRule="Nullify" destinationEntity="Session" inverseName="alerts" inverseEntity="Session" spotlightIndexingEnabled="YES"/>
+    </entity>
+    <entity name="AlertMotionData" representedClassName="AlertMotionData" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="alert" maxCount="1" deletionRule="Nullify" destinationEntity="Alert" inverseName="alertMotionData" inverseEntity="Alert"/>
+    </entity>
+    <entity name="MlCall" representedClassName="MlCall" syncable="YES" codeGenerationType="class">
+        <attribute name="beforeTime" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="features" optional="YES" attributeType="String"/>
+        <attribute name="featuresCalculatedTime" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="modelType" optional="YES" attributeType="String"/>
+        <attribute name="output" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="outputProbability" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="outputString" optional="YES" attributeType="String"/>
+        <attribute name="timeDone" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Session" inverseName="mlCalls" inverseEntity="Session"/>
+    </entity>
+    <entity name="Session" representedClassName="Session" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="confirmed" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="denied" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String"/>
+        <attribute name="deviceType" optional="YES" attributeType="String" defaultValueString="&quot;W&quot;"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="ignored" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isLeftHand" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastRefresh" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startTime" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="alerts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Alert" inverseName="session" inverseEntity="Alert" spotlightIndexingEnabled="YES"/>
+        <relationship name="date" maxCount="1" deletionRule="Nullify" destinationEntity="ActiveDate" inverseName="sessions" inverseEntity="ActiveDate" spotlightIndexingEnabled="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SjEvent" inverseName="session" inverseEntity="SjEvent"/>
+        <relationship name="mlCalls" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MlCall" inverseName="session" inverseEntity="MlCall"/>
+        <relationship name="sessionMotionData" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="SessionMotionData" inverseName="session" inverseEntity="SessionMotionData"/>
+    </entity>
+    <entity name="SessionMotionData" representedClassName="SessionMotionData" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Session" inverseName="sessionMotionData" inverseEntity="Session"/>
+    </entity>
+    <entity name="SjEvent" representedClassName="SjEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="session" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Session" inverseName="events" inverseEntity="Session"/>
+    </entity>
+</model>

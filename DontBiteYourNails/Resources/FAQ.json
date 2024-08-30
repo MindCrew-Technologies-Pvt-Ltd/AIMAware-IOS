@@ -1,0 +1,50 @@
+
+[
+    {
+        "id": 0,
+        "question": "How to use the app?",
+        "answer": "Just open the app on your Apple Watch, and press the play button.\n\nIf you want to change which hand you are using, first go to Setting on either your Apple Watch or in the Watch App on your iPhone, and then choose General > Orientation and select the new orientation of your Apple Watch. Then you need to press the reset button in the app on your Apple Watch and you are ready to go."
+    },
+    {
+        "id": 1,
+        "question": "Why does it not work when I’m lying down?",
+        "answer": "Your Apple Watch can only sense how your arm is moving, not what the rest of your body is doing, so the app has been developed to work when your torso is almost upright, for example when sitting, standing and walking."
+    },
+    
+    {
+        "id": 2,
+        "question": "Can I make the vibrations stronger?",
+        "answer": "Yes, go to Setting on either your Apple Watch or your iPhone’s Watch app, choose Sounds & Haptics. Here you can set your haptics to either Default or Prominent."
+    },
+    
+    {
+        "id": 3,
+        "question": "Why does it stop giving alerts after an hour?",
+        "answer": "The app needs to run in the background on your Apple Watch, and to save battery, it can only do that for an hour. You can make it run again by pressing play in the app."
+    },
+    
+    {
+        "id": 5,
+        "question": "Why is it giving alerts when my hand is down?",
+        "answer": "It should never do that. Go to Setting on either your Apple Watch or in the Watch App on your iPhone then choose General > Orientation and make sure you have selected the correct orientation of your Apple Watch."
+    },
+    
+    {
+        "id": 6,
+        "question": "I bit my nails once without the alert going off",
+        "answer": "Yes, the app is not perfect. If your hand moved towards your face in an unusual way, or if you turn your whole body at the same time as your arm movement, you might not get an alert. \nIf it is something that happens often, and in the same way, send me an email at sunekjakobsen@gmail.com where you describe how you do it."
+    },
+    
+    {
+        "id": 7,
+        "question": "When I get many alerts in a row, the alert counter only goes up by 1",
+        "answer": "This is intentional. Two different vibrations are counted as at same alert if you have not lowered your hand between the vibrations. This is true even if you moved your hand away from your face in between the vibrations."
+    },
+    
+    {
+        "id": 8,
+        "question": "I would like more features in this app!",
+        "answer": "So would I! But I have a full time job, and I am taking a few holidays and otherwise spending weekends to develop it. Spread the word, make the app more popular, and the app will get more features. I would like to add notifications for when a session ends and statistics or gamification to encourage users to use the app more. If you have other features you would like to see, drop me an email: sunekjakobsen@gmail.com"
+    }
+]
+
